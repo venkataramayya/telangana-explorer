@@ -16,7 +16,7 @@ export const telanganaDistricts: District[] = [
     area: "217 km²",
     landmarks: ["Charminar", "Golconda Fort", "Hussain Sagar Lake"],
     colorIndex: 1,
-    path: "M450,280 L470,275 L485,285 L480,300 L465,305 L445,295 Z"
+    path: "M700,950 L780,940 L820,970 L810,1020 L760,1040 L700,1010 Z"
   },
   {
     id: "medchal-malkajgiri",
@@ -25,7 +25,7 @@ export const telanganaDistricts: District[] = [
     area: "3,974 km²",
     landmarks: ["Keesaragutta Temple", "Shamirpet Lake"],
     colorIndex: 2,
-    path: "M450,250 L480,245 L500,255 L495,270 L480,275 L450,265 Z"
+    path: "M750,800 L850,780 L900,820 L890,900 L830,920 L750,880 Z"
   },
   {
     id: "rangareddy",
@@ -34,7 +34,7 @@ export const telanganaDistricts: District[] = [
     area: "7,493 km²",
     landmarks: ["Mrugavani National Park", "Osman Sagar"],
     colorIndex: 3,
-    path: "M420,280 L445,275 L465,285 L460,310 L435,315 L415,305 Z"
+    path: "M600,950 L690,940 L750,980 L740,1080 L660,1100 L600,1050 Z"
   },
   {
     id: "warangal-urban",
@@ -43,7 +43,7 @@ export const telanganaDistricts: District[] = [
     area: "2,175 km²",
     landmarks: ["Warangal Fort", "Thousand Pillar Temple"],
     colorIndex: 4,
-    path: "M550,220 L580,215 L595,230 L585,250 L560,255 L545,240 Z"
+    path: "M1050,650 L1150,630 L1200,680 L1180,750 L1100,770 L1050,720 Z"
   },
   {
     id: "warangal-rural",
@@ -52,7 +52,7 @@ export const telanganaDistricts: District[] = [
     area: "2,896 km²",
     landmarks: ["Laknavaram Lake", "Ramappa Temple"],
     colorIndex: 5,
-    path: "M520,210 L550,205 L570,220 L560,240 L535,245 L515,230 Z"
+    path: "M950,600 L1040,580 L1090,630 L1070,700 L990,720 L950,670 Z"
   },
   {
     id: "karimnagar",
@@ -61,7 +61,7 @@ export const telanganaDistricts: District[] = [
     area: "2,128 km²",
     landmarks: ["Lower Manair Dam", "Elgandal Fort"],
     colorIndex: 6,
-    path: "M520,160 L555,155 L575,170 L565,195 L535,200 L515,185 Z"
+    path: "M900,450 L1000,430 L1050,480 L1030,560 L950,580 L900,530 Z"
   },
   {
     id: "nizamabad",
@@ -70,7 +70,7 @@ export const telanganaDistricts: District[] = [
     area: "7,956 km²",
     landmarks: ["Nizam Sagar", "Dichpally Ramalayam"],
     colorIndex: 7,
-    path: "M380,140 L420,135 L445,150 L435,180 L400,185 L375,170 Z"
+    path: "M600,400 L720,380 L780,430 L760,520 L660,540 L600,490 Z"
   },
   {
     id: "adilabad",
@@ -79,7 +79,7 @@ export const telanganaDistricts: District[] = [
     area: "4,153 km²",
     landmarks: ["Kuntala Waterfall", "Basar Saraswati Temple"],
     colorIndex: 8,
-    path: "M450,100 L495,95 L520,115 L510,145 L470,150 L445,130 Z"
+    path: "M750,220 L880,200 L940,260 L920,350 L810,370 L750,310 Z"
   },
   {
     id: "khammam",
@@ -88,7 +88,7 @@ export const telanganaDistricts: District[] = [
     area: "16,029 km²",
     landmarks: ["Kinnerasani Wildlife Sanctuary", "Khammam Fort"],
     colorIndex: 9,
-    path: "M600,280 L645,275 L665,295 L650,325 L610,330 L590,310 Z"
+    path: "M1200,850 L1350,830 L1420,900 L1390,1020 L1250,1040 L1180,970 Z"
   },
   {
     id: "nalgonda",
@@ -97,7 +97,7 @@ export const telanganaDistricts: District[] = [
     area: "14,240 km²",
     landmarks: ["Nagarjuna Sagar", "Yadagirigutta Temple"],
     colorIndex: 10,
-    path: "M510,300 L555,295 L580,315 L565,345 L525,350 L500,330 Z"
+    path: "M950,950 L1100,930 L1180,990 L1150,1120 L1020,1140 L950,1070 Z"
   },
   {
     id: "mahabubnagar",
@@ -106,7 +106,7 @@ export const telanganaDistricts: District[] = [
     area: "18,432 km²",
     landmarks: ["Alampur Temples", "Pillalamarri Banyan Tree"],
     colorIndex: 11,
-    path: "M380,320 L430,315 L455,335 L440,370 L395,375 L370,355 Z"
+    path: "M550,1100 L700,1080 L770,1150 L740,1300 L600,1320 L530,1240 Z"
   },
   {
     id: "suryapet",
@@ -115,7 +115,7 @@ export const telanganaDistricts: District[] = [
     area: "5,505 km²",
     landmarks: ["Chaya Someswara Temple", "Pillala Marri"],
     colorIndex: 1,
-    path: "M520,320 L560,315 L580,335 L565,360 L530,365 L510,345 Z"
+    path: "M1000,1000 L1100,980 L1160,1040 L1140,1130 L1050,1150 L990,1090 Z"
   },
   {
     id: "yadadri-bhuvanagiri",
@@ -124,7 +124,7 @@ export const telanganaDistricts: District[] = [
     area: "3,384 km²",
     landmarks: ["Yadagirigutta Temple", "Bhongir Fort"],
     colorIndex: 2,
-    path: "M485,285 L515,280 L535,295 L525,315 L500,320 L480,305 Z"
+    path: "M850,900 L950,880 L1010,930 L990,1010 L900,1030 L850,980 Z"
   },
   {
     id: "siddipet",
@@ -133,7 +133,7 @@ export const telanganaDistricts: District[] = [
     area: "4,192 km²",
     landmarks: ["Komati Cheruvu", "Nagaram Fort"],
     colorIndex: 3,
-    path: "M460,240 L495,235 L515,250 L505,275 L475,280 L455,265 Z"
+    path: "M780,700 L880,680 L930,730 L910,810 L830,830 L780,780 Z"
   },
   {
     id: "medak",
@@ -142,7 +142,7 @@ export const telanganaDistricts: District[] = [
     area: "9,699 km²",
     landmarks: ["Medak Cathedral", "Edupayala Durga Bhavani Temple"],
     colorIndex: 4,
-    path: "M410,210 L450,205 L475,220 L465,250 L430,255 L405,240 Z"
+    path: "M650,600 L770,580 L830,630 L810,720 L710,740 L650,690 Z"
   },
   {
     id: "sangareddy",
@@ -151,7 +151,7 @@ export const telanganaDistricts: District[] = [
     area: "4,582 km²",
     landmarks: ["Ananthagiri Hills", "Sanghi Temple"],
     colorIndex: 5,
-    path: "M400,245 L435,240 L455,255 L445,280 L415,285 L395,270 Z"
+    path: "M600,750 L720,730 L780,780 L760,870 L660,890 L600,840 Z"
   },
   {
     id: "kamareddy",
@@ -160,7 +160,7 @@ export const telanganaDistricts: District[] = [
     area: "3,570 km²",
     landmarks: ["Domakonda Fort", "Sri Raja Rajeshwara Swamy Temple"],
     colorIndex: 6,
-    path: "M410,175 L445,170 L465,185 L455,210 L425,215 L405,200 Z"
+    path: "M650,500 L750,480 L810,530 L790,610 L700,630 L650,580 Z"
   },
   {
     id: "rajanna-sircilla",
@@ -169,7 +169,7 @@ export const telanganaDistricts: District[] = [
     area: "2,192 km²",
     landmarks: ["Sircilla Temple", "Vemulawada Temple"],
     colorIndex: 7,
-    path: "M485,185 L515,180 L535,195 L525,220 L500,225 L480,210 Z"
+    path: "M830,530 L920,510 L980,560 L960,640 L880,660 L830,610 Z"
   },
   {
     id: "peddapalli",
@@ -178,7 +178,7 @@ export const telanganaDistricts: District[] = [
     area: "2,861 km²",
     landmarks: ["Ramagiri Fort", "Manthani Temple"],
     colorIndex: 8,
-    path: "M540,185 L570,180 L590,195 L580,220 L555,225 L535,210 Z"
+    path: "M980,530 L1070,510 L1130,560 L1110,640 L1030,660 L980,610 Z"
   },
   {
     id: "jayashankar-bhupalpally",
@@ -187,7 +187,7 @@ export const telanganaDistricts: District[] = [
     area: "5,644 km²",
     landmarks: ["Bogatha Waterfall", "Laknavaram Lake"],
     colorIndex: 9,
-    path: "M490,210 L525,205 L545,220 L535,245 L505,250 L485,235 Z"
+    path: "M880,600 L970,580 L1030,630 L1010,710 L930,730 L880,680 Z"
   },
   {
     id: "mancherial",
@@ -196,7 +196,7 @@ export const telanganaDistricts: District[] = [
     area: "4,009 km²",
     landmarks: ["Bellala Konda", "Singareni Collieries"],
     colorIndex: 10,
-    path: "M520,130 L560,125 L580,140 L570,165 L540,170 L515,155 Z"
+    path: "M900,350 L1000,330 L1060,380 L1040,460 L950,480 L900,430 Z"
   },
   {
     id: "nirmal",
@@ -205,7 +205,7 @@ export const telanganaDistricts: District[] = [
     area: "3,666 km²",
     landmarks: ["Nirmal Toys", "Basar Saraswati Temple"],
     colorIndex: 11,
-    path: "M455,120 L490,115 L510,130 L500,155 L470,160 L450,145 Z"
+    path: "M750,310 L850,290 L910,340 L890,420 L800,440 L750,390 Z"
   },
   {
     id: "jagitial",
@@ -214,7 +214,7 @@ export const telanganaDistricts: District[] = [
     area: "2,451 km²",
     landmarks: ["Kondagattu Anjaneya Swamy Temple", "Jagitial Fort"],
     colorIndex: 1,
-    path: "M555,160 L585,155 L605,170 L595,195 L570,200 L550,185 Z"
+    path: "M1000,450 L1090,430 L1150,480 L1130,560 L1050,580 L1000,530 Z"
   },
   {
     id: "vikarabad",
@@ -223,7 +223,7 @@ export const telanganaDistricts: District[] = [
     area: "3,386 km²",
     landmarks: ["Ananthagiri Hills", "Kotepally Reservoir"],
     colorIndex: 2,
-    path: "M370,260 L405,255 L425,270 L415,295 L385,300 L365,285 Z"
+    path: "M500,850 L620,830 L680,880 L660,970 L550,990 L500,940 Z"
   },
   {
     id: "nagarkurnool",
@@ -232,7 +232,7 @@ export const telanganaDistricts: District[] = [
     area: "6,545 km²",
     landmarks: ["Jurala Project", "Kollapur Temple"],
     colorIndex: 3,
-    path: "M350,340 L390,335 L410,350 L400,380 L365,385 L345,370 Z"
+    path: "M450,1200 L600,1180 L670,1240 L650,1360 L510,1380 L440,1320 Z"
   },
   {
     id: "wanaparthy",
@@ -241,7 +241,7 @@ export const telanganaDistricts: District[] = [
     area: "2,831 km²",
     landmarks: ["Wanaparthy Palace", "Pangidi Fort"],
     colorIndex: 4,
-    path: "M390,350 L425,345 L445,360 L435,385 L405,390 L385,375 Z"
+    path: "M600,1200 L720,1180 L780,1230 L760,1330 L650,1350 L590,1300 Z"
   },
   {
     id: "jogulamba-gadwal",
@@ -250,7 +250,7 @@ export const telanganaDistricts: District[] = [
     area: "3,054 km²",
     landmarks: ["Jogulamba Temple", "Gadwal Fort"],
     colorIndex: 5,
-    path: "M425,360 L460,355 L480,370 L470,395 L440,400 L420,385 Z"
+    path: "M700,1230 L820,1210 L880,1260 L860,1360 L750,1380 L690,1330 Z"
   },
   {
     id: "narayanpet",
@@ -259,7 +259,7 @@ export const telanganaDistricts: District[] = [
     area: "2,675 km²",
     landmarks: ["Narayanpet Handlooms", "Mahanandi Temple"],
     colorIndex: 6,
-    path: "M370,305 L405,300 L425,315 L415,340 L385,345 L365,330 Z"
+    path: "M530,1050 L650,1030 L710,1080 L690,1180 L580,1200 L520,1150 Z"
   },
   {
     id: "jangaon",
@@ -268,7 +268,7 @@ export const telanganaDistricts: District[] = [
     area: "1,490 km²",
     landmarks: ["Kolanupaka Jain Temple", "Bommalaramaram Temple"],
     colorIndex: 7,
-    path: "M520,270 L550,265 L570,280 L560,300 L535,305 L515,290 Z"
+    path: "M950,800 L1050,780 L1110,830 L1090,910 L1000,930 L950,880 Z"
   },
   {
     id: "mahabubabad",
@@ -277,7 +277,7 @@ export const telanganaDistricts: District[] = [
     area: "2,944 km²",
     landmarks: ["Bayyaram Mines", "Ramappa Temple"],
     colorIndex: 8,
-    path: "M560,250 L595,245 L615,260 L605,285 L575,290 L555,275 Z"
+    path: "M1050,750 L1150,730 L1210,780 L1190,860 L1100,880 L1050,830 Z"
   },
   {
     id: "bhadradri-kothagudem",
@@ -286,7 +286,7 @@ export const telanganaDistricts: District[] = [
     area: "7,483 km²",
     landmarks: ["Bhadrachalam Temple", "Kinnerasani Dam"],
     colorIndex: 9,
-    path: "M590,310 L635,305 L660,325 L645,355 L605,360 L580,340 Z"
+    path: "M1150,920 L1300,900 L1380,970 L1350,1100 L1210,1120 L1130,1050 Z"
   },
   {
     id: "mulugu",
@@ -295,7 +295,7 @@ export const telanganaDistricts: District[] = [
     area: "2,506 km²",
     landmarks: ["Bogatha Waterfall", "Tadvai Waterfalls"],
     colorIndex: 10,
-    path: "M545,245 L580,240 L600,255 L590,280 L560,285 L540,270 Z"
+    path: "M1010,730 L1110,710 L1170,760 L1150,840 L1060,860 L1010,810 Z"
   },
   {
     id: "komaram-bheem",
@@ -304,6 +304,6 @@ export const telanganaDistricts: District[] = [
     area: "4,378 km²",
     landmarks: ["Kadam Reservoir", "Jainath Temple"],
     colorIndex: 11,
-    path: "M480,100 L520,95 L545,110 L535,135 L500,140 L475,125 Z"
+    path: "M820,220 L950,200 L1020,260 L1000,350 L890,370 L820,310 Z"
   }
 ];

@@ -2,6 +2,7 @@ import { useState } from "react";
 import { telanganaDistricts, District } from "@/data/telanganaDistricts";
 import { DistrictTooltip } from "./DistrictTooltip";
 import { motion } from "framer-motion";
+import telanganaMapSvg from "@/assets/telangana-map.svg";
 
 export const TelanganaMap = () => {
   const [hoveredDistrict, setHoveredDistrict] = useState<District | null>(null);
@@ -45,70 +46,45 @@ export const TelanganaMap = () => {
         initial={{ opacity: 0, scale: 0.95 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.5 }}
-        className="w-full max-w-6xl"
+        className="w-full max-w-6xl relative"
+        onMouseMove={handleMouseMove}
       >
+        {/* Actual Telangana SVG Map */}
+        <img 
+          src={telanganaMapSvg} 
+          alt="Telangana Map" 
+          className="w-full h-auto rounded-xl shadow-elegant"
+        />
+        
+        {/* Interactive overlay with invisible district regions */}
         <svg
-          viewBox="0 0 800 500"
-          className="w-full h-auto"
-          onMouseMove={handleMouseMove}
+          viewBox="0 0 1600 1600"
+          className="absolute inset-0 w-full h-full pointer-events-none"
+          style={{ pointerEvents: 'none' }}
         >
-          {/* Map background */}
-          <rect
-            x="0"
-            y="0"
-            width="800"
-            height="500"
-            fill="hsl(var(--map-bg))"
-            rx="12"
-          />
-
-          {/* Districts */}
+          {/* Interactive districts - positioned to match the actual SVG */}
           {telanganaDistricts.map((district) => (
             <motion.path
               key={district.id}
               d={district.path}
-              fill={getDistrictColor(district.colorIndex)}
-              stroke="hsl(var(--map-border))"
-              strokeWidth="2"
+              fill="transparent"
+              stroke="transparent"
+              strokeWidth="0"
               className="map-district"
+              style={{ 
+                pointerEvents: 'auto',
+                cursor: 'pointer'
+              }}
               onMouseEnter={(e) => handleMouseEnter(district, e)}
               onMouseLeave={handleMouseLeave}
-              whileHover={{ scale: 1.05 }}
-              transition={{ duration: 0.3, ease: "easeOut" }}
-              style={{
-                filter: hoveredDistrict?.id === district.id 
-                  ? "drop-shadow(0 0 20px hsl(var(--map-hover-glow) / 0.6))" 
-                  : "drop-shadow(0 2px 8px hsla(0, 0%, 0%, 0.1))",
+              whileHover={{ 
+                fill: "rgba(255, 255, 255, 0.15)",
+                stroke: "hsl(var(--primary))",
+                strokeWidth: 3
               }}
+              transition={{ duration: 0.2, ease: "easeOut" }}
             />
           ))}
-
-          {/* District labels */}
-          {telanganaDistricts.map((district) => {
-            // Calculate center of district path for label placement
-            const pathElement = document.createElementNS("http://www.w3.org/2000/svg", "path");
-            pathElement.setAttribute("d", district.path);
-            const bbox = pathElement.getBBox?.() || { x: 0, y: 0, width: 0, height: 0 };
-            const centerX = bbox.x + bbox.width / 2;
-            const centerY = bbox.y + bbox.height / 2;
-
-            return (
-              <text
-                key={`label-${district.id}`}
-                x={centerX}
-                y={centerY}
-                textAnchor="middle"
-                className="text-[8px] font-semibold fill-white pointer-events-none"
-                style={{
-                  textShadow: "0 1px 3px rgba(0,0,0,0.5)",
-                  opacity: hoveredDistrict?.id === district.id ? 0 : 1,
-                  transition: "opacity 0.2s",
-                }}
-              >
-                {district.name.length > 15 ? district.name.substring(0, 12) + "..." : district.name}
-              </text>
-            );
-          })}
         </svg>
       </motion.div>
 
